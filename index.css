@@ -1,0 +1,61 @@
+body {
+    margin: 15px;
+    font-family: score;
+    
+}
+
+@font-face{
+    src :url("scoreFont.ttf");
+    font-family: score;
+}
+
+.container {
+    margin: 0 auto;
+    background: #1B244A;
+    width: 575px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.team-site{
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-size:40px;
+    text-align: center;
+    margin: 20px 0px 5px;
+}
+
+.score{
+    font-weight:normal;
+    background: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D;
+    font-size: 90px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.score-button{
+    margin: 26px 3px 0 0;
+    width: 40px;
+    height: 40px;
+    font-family: score;
+    text-align: center;
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+#new-game{
+    text-align: center;
+    margin: auto 30px;
+    width:100px;
+}
